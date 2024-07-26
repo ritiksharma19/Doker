@@ -1,0 +1,9 @@
+# docker-compose.yml
+
+version: '3'
+services:
+  library-app:
+    build: .
+    container_name: library-app-container
+    restart: unless-stopped
+
